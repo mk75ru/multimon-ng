@@ -28,7 +28,7 @@
 
 #ifndef _MULTIMON_H
 #define _MULTIMON_H
-
+#define NO_X11
 #include <stdint.h>
 #include <stdbool.h>
 
