@@ -113,3 +113,7 @@ LIBS += -lX11 -lpulse-simple -lpulse
 SOURCES +=  xdisplay.c \
             demod_display.c
 }
+
+include(../root.pri)
+
+TARGET = $${PRJ_BIN}/multimon-ng
